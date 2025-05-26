@@ -1,0 +1,81 @@
+
+Capibombo ($CAPB) - Meme Coin Website Specification
+---------------------------------------------------
+
+🎯 GOAL:
+Build a single-page meme coin website for Capibombo ($CAPB), with a modern, luxurious, and absurdly funny look. Everything must be in English. Style is vibrant, high-saturation, heavy use of yellow tones, and packed with memes.
+
+📐 STRUCTURE:
+
+1. HERO SECTION:
+- Fullscreen banner (banner.jpg) with logo (logo.jpg)
+- Centered tagline: "Capibombo has arrived. You can't stop the bomb."
+- Buttons: [Buy on Pump.fun] [View Chart]
+- Text style: Bold Grotesk / Bangers font, white text with glowing yellow shadow
+- Animation: Fade-in from bottom (Framer Motion), logo pulse on hover
+
+2. ABOUT CAPIBOMBO:
+- Section Title: “Who is Capibombo?”
+- Short Text:
+  “Capibombo is not just a coin. It’s a capybara on crack, rolling through Solana with style and memes.”
+- Story:
+  “Born in the depths of internet chaos, Capibombo kicked Neymar, seduced anime girls, went giga-chad mode, sniffed himself into space, and is now too powerful to be ignored.”
+- Style: Yellow background with soft orange gradient corners. Text enters with a bounce animation.
+
+3. MEME WALL:
+- Grid layout of images 1.jpg to 10.jpg
+- Each image has a small meme caption:
+  - “Capibombo when he hits ATH”
+  - “Brazil can’t handle him”
+  - “Sniffed himself into another dimension”
+- On-hover animation: zoom-in + light glow effect (Framer Motion)
+
+4. TOKENOMICS:
+- Title: “Tokenomics”
+- Text:
+  - Total Supply: 1,000,000,000 $CAPB
+  - Tax: 0% buy / 0% sell
+  - 100% community owned chaos
+- Style: White text on dark yellow block, token details slide in from left
+
+5. HOW TO BUY:
+- Simple 3-step guide
+- Icons: Phone / Wallet / Rocket emoji-style
+- Yellow cards with soft shadows, appear one-by-one with scale-up animation
+
+6. CALL TO ACTION:
+- Slogan: “Join the Capibombo Movement”
+- Buttons: [Pump.fun] [Twitter] [Telegram]
+- Style: Banner background blur, buttons glow yellow on hover
+
+🎨 COLORS & STYLING:
+- Main color: #FFD300 (vibrant yellow)
+- Accents: #FF5757 (red), #000000 (black), #FFFFFF (white)
+- Background: Light gradient (yellow → white)
+- Font: Bold Grotesk or Bangers (fallback: sans-serif)
+- Spacing: Padding 2rem+, section margin 5rem+
+
+🎞️ ANIMATIONS:
+- All sections appear with Framer Motion-style scroll entrance (fade + slide)
+- Buttons pulse on hover
+- Meme images: zoom and glow on hover
+- Logo: infinite subtle pulse
+
+📁 ASSETS:
+- banner.jpg
+- logo.jpg
+- 1.jpg — 10.jpg (meme image grid)
+
+📝 NOTES:
+- The tone should be absurd but premium
+- Responsive design: must look good on both mobile and desktop
+
+
+🔗 SOCIAL & BRANDING ELEMENTS:
+- The name “Capibombo ($CAPB)” must appear LARGE and bold in the top section (Hero), directly above or below the logo
+- Include visible, clickable buttons linking to:
+  - Official Twitter
+  - Pump.fun token page
+- Buttons should use solid styles (yellow background, black text), with hover effects (text turns white, glow border)
+- Logo must be prominently shown in Hero section
+- Banner should be fullscreen with slight dark overlay for text contrast

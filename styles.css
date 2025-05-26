@@ -1,0 +1,221 @@
+:root {
+    --yellow: #FFD300;
+    --red: #FF5757;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bangers', sans-serif;
+    background: linear-gradient(135deg, var(--yellow) 0%, var(--white) 100%);
+    color: var(--black);
+    line-height: 1.6;
+}
+
+.hero {
+    min-height: 100vh;
+    background: url('banner.jpg') center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 2rem;
+    animation: pulse 2s infinite;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: var(--white);
+    text-shadow: 0 0 20px var(--yellow);
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--yellow);
+    color: var(--black);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: var(--black);
+    color: var(--yellow);
+    box-shadow: 0 0 20px var(--yellow);
+    transform: scale(1.05);
+}
+
+section {
+    padding: 5rem 2rem;
+}
+
+.about {
+    background: var(--yellow);
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-intro {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.meme-wall {
+    background: var(--white);
+    padding: 5rem 2rem;
+}
+
+.meme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.meme-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.meme-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 211, 0, 0.5);
+}
+
+.tokenomics {
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+
+.tokenomics-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+}
+
+.token-detail {
+    background: rgba(255, 211, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.how-to-buy {
+    text-align: center;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+}
+
+.step {
+    background: var(--yellow);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.emoji {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.cta {
+    background: url('banner.jpg') center/cover;
+    position: relative;
+    text-align: center;
+    color: var(--white);
+}
+
+.cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.cta > * {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .tagline {
+        font-size: 1.5rem;
+    }
+    
+    section {
+        padding: 3rem 1rem;
+    }
+} 
